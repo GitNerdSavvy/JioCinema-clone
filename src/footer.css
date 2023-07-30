@@ -1,0 +1,97 @@
+.flex{
+    width: 100%;
+    font-family: sans-serif;
+    color: antiquewhite;
+    background-color: #050505;
+display: flex;    
+
+    
+}
+
+
+.flex1{
+    font-family: sans-serif;
+    align-items: center;
+    color: rgb(254, 254, 254);
+    background-color: #110d0d;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jio{
+    width: 2rem;
+    /* margin-left: 20rem; */
+   
+}
+.left{
+    margin: 2.5rem;
+}
+
+
+.l1{
+    margin: 0.6rem;
+}
+.size{
+   
+    height: 10.5rem;
+    width: 100%;
+    
+}
+.size1{
+    height: 3.1rem;
+    width: 100%;
+    /* margin: 0 10px 0 10px; */
+}
+
+
+    
+@media only screen and(max-width : 610px){
+.size1{
+    height: 1.1rem;
+    width: 100%;
+    font-size: small;
+
+}
+
+.flex{
+    width: 100%;
+    font-family: sans-serif;
+    color: antiquewhite;
+    background-color: #050505;
+display: flex;    
+justify-content: space-between;
+    
+}
+.jio{
+    width: 1rem;
+    /* margin-left: 20rem; */
+   
+}
+
+
+}
+
+@media only screen and (max-width: 480px) {
+    /* Styles for mobile devices go here */
+    .size1 {
+        height: 1.1rem;
+        width: 100%;
+        font-size: small;
+    }
+    .pro{
+        margin-left: -2rem;
+    }
+
+    .flex {
+        width: 100%;
+        font-family: sans-serif;
+        color: antiquewhite;
+        background-color: #050505;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .jio {
+        width: 1rem;
+    }
+}

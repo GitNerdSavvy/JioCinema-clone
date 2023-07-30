@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+}
+.App {
+  background-color: #111;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
